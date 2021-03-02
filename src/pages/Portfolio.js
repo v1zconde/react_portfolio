@@ -48,15 +48,12 @@ function Search () {
     deployed: "https://v1zconde.github.io/employee_summary/"
   }]
 
+
+
     return (
       <div className="background-portfolio">
         <Container style={{ minHeight: "80%" }} >
           <h1 className="text-center">Projects</h1>
-          {/* <SearchForm
-            handleFormSubmit={this.handleFormSubmit}
-            handleInputChange={this.handleInputChange}
-            breeds={this.state.breeds}
-          /> */}
           <Projects results={portfolio} />
         </Container>
       </div>

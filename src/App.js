@@ -6,13 +6,10 @@ import Portfolio from "./pages/Portfolio";
 import Navbar1 from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
-import { Button } from 'reactstrap';
-
 
 function App() {
   return (
     <Router>
-      <div>
         <Navbar1 />
         <Wrapper>
           <Route exact path="/" component={About} />
@@ -21,7 +18,6 @@ function App() {
           <Route exact path="/Portfolio" component={Portfolio} />
         </Wrapper>
         <Footer />
-      </div>
     </Router>
   );
 }
