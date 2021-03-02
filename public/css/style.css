@@ -1,0 +1,26 @@
+.background-index{
+
+    background-image: url(../img/background-index1.png);
+    background-size: cover;
+}
+
+.background-contact {
+    /* padding-top: 5rem; */
+    background-image: url(../img/background-contact.jpg);
+    background-size: cover;
+    }
+
+.background-portfolio{
+  
+    background-color: rgb(235, 253, 255);
+    background-size: cover;
+}
+
+.form-horizontal{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.last {
+    padding-bottom: 150px;
+}
