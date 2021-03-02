@@ -12,25 +12,25 @@
   outline: none;
 }
 
-.pass {
+.github {
   left: 1%;
   background: #E53935;
 }
 
-.pass::after {
+.github::after {
   content: "\f165";
 }
 
-.pick {
+.deployed {
   right: 1%;
   background: #43A047;
 }
 
-.pick::after {
+.deployed::after {
   content: "\f164";
 }
 
-.pick:hover::after, .pass:hover::after {
+.deployed:hover::after, .github:hover::after {
   animation: iconBounce .57s 1;
 }
 

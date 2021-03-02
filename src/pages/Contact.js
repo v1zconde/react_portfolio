@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import API from "../utils/API";
+
 import Card from "../components/Card";
 import Alert from "../components/Alert";
 
@@ -39,15 +39,7 @@ class Contact extends Component {
     this.loadNextDog();
   };
 
-  loadNextDog = () => {
-    API.getRandomDog()
-      .then(res =>
-        this.setState({
-          image: res.data.message
-        })
-      )
-      .catch(err => console.log(err));
-  };
+
 
   render() {
     return (

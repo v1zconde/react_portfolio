@@ -1,15 +1,16 @@
 import React from "react";
+import Row from "../Row";
+import Card from "../Card";
 import "./style.css";
 
-function SearchResults(props) {
+function SearchResults({results}) {
+  console.log(results)
   return (
-    <ul className="list-group search-results">
-      {props.results.map(result => (
-        <li key={result} className="list-group-item">
-          <img alt="Dog" src={result} className="img-fluid" />
-        </li>
+    <Row className="search-results">
+      {results.map(project => (
+        <Card project={project} />
       ))}
-    </ul>
+    </Row>
   );
 }
 
