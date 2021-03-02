@@ -1,5 +1,4 @@
 .background-index{
-
     background-image: url(../img/background-index1.png);
     background-size: cover;
 }
@@ -11,8 +10,8 @@
     }
 
 .background-portfolio{
-  
-    background-color: rgb(235, 253, 255);
+    background-image: url(../img/background-index1.png);
+    /* background-color: rgb(235, 253, 255); */
     background-size: cover;
 }
 

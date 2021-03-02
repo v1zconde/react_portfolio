@@ -3,7 +3,7 @@ import Row from "../Row";
 import Card from "../Card";
 import "./style.css";
 
-function SearchResults({results}) {
+function Projects({results}) {
   console.log(results)
   return (
     <Row className="search-results">
@@ -14,4 +14,4 @@ function SearchResults({results}) {
   );
 }
 
-export default SearchResults;
+export default Projects;

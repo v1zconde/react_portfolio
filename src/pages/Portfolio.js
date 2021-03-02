@@ -1,8 +1,6 @@
 import React from "react";
-
 import Container from "../components/Container";
-
-import SearchResults from "../components/SearchResults";
+import Projects from "../components/Projects";
 
 
 function Search () {
@@ -48,23 +46,18 @@ function Search () {
     description: "As a manager I want to generate a webpage that displays my team's basic info so that I have quick access to emails and GitHub profiles",
     github: "https://github.com/v1zconde/employee_summary",
     deployed: "https://v1zconde.github.io/employee_summary/"
-  }
-
-]
-
-
-
+  }]
 
     return (
-      <div>
-        <Container style={{ minHeight: "80%" }}>
+      <div className="background-portfolio">
+        <Container style={{ minHeight: "80%" }} >
           <h1 className="text-center">Projects</h1>
           {/* <SearchForm
             handleFormSubmit={this.handleFormSubmit}
             handleInputChange={this.handleInputChange}
             breeds={this.state.breeds}
           /> */}
-          <SearchResults results={portfolio} />
+          <Projects results={portfolio} />
         </Container>
       </div>
     );

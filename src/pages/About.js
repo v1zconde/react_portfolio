@@ -11,7 +11,7 @@ function About() {
         <h1>Rafael Vasquez</h1>
         <h2>Full Stack Developer</h2>
       </Hero>
-      <Container style={{ marginTop: 10 }}>
+      <Container background ={" container background-index"} style={{ marginTop: 10 }}>
         <Row>
           <Col size="md-12">
           <article className="container-fluid p-5">
