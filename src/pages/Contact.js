@@ -4,7 +4,7 @@ import React from "react";
 function Contact () {
     return (
       <>
-       <div className="container-fluid background-contact text-white pb-5 text-center">
+       <div className="container-fluid background-contact text-white p-5 text-center">
         <h1 className="text-center">Contact</h1>
         <form className="form-horizontal">
           <div className="form-group">
