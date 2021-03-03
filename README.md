@@ -43,7 +43,7 @@ Github Repo URL:
 [https://github.com/v1zconde/react_portfolio](https://github.com/v1zconde/react_portfolio)
 
 Deployed URL: 
-[zzz](xxx)
+[https://v1zconde.github.io/react_portfolio](https://v1zconde.github.io/react_portfolio)
 
 
 ## Example
