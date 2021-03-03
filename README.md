@@ -43,13 +43,21 @@ Github Repo URL:
 [https://github.com/v1zconde/react_portfolio](https://github.com/v1zconde/react_portfolio)
 
 Deployed URL: 
-[xxxxx](xxxxx)
+[zzz](xxx)
 
 
 ## Example
 ---
-### React Employee Directory
-![Readme Example](./public/index.png)
+### Index
+![Portfolio Index](./public/img/full-page-index.png)
+
+### Portfolio
+![Portfolio Index](./public/img/full-page-portfolio.png)
+
+### Contact
+![Portfolio Index](./public/img/full-page-contact.png)
+
+[Watch Video](https://drive.google.com/file/d/198mSNPS5vX4hvJrYrY68hM_IiGcKcbqJ/view)
 
   ## Questions
 you have any questions about the repo, open an issue or contact me directly at rvasquez1@gmail.com. You can find more of my work at 
