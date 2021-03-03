@@ -14,6 +14,7 @@ function App() {
         <Wrapper>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/react_portfolio" component={About} />
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/Portfolio" component={Portfolio} />
         </Wrapper>

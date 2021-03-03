@@ -17,12 +17,12 @@ function Card({ project }) {
         </div>
         <div className="cardFooter border-top p-3 text-center">
           <button className="btn btn-dark btn-sm mr-3">
-            <a href={project.github} target="_blank">
+            <a href={project.github} rel="noreferrer" target="_blank">
               Github
             </a>
           </button>
           <button className="btn btn-dark btn-sm">
-            <a href={project.deployed} target="_blank">
+            <a href={project.deployed} rel="noreferrer" target="_blank">
               Deployed
             </a>
           </button>

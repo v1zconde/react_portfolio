@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
-import Row from "../Row";
+
 import Col from "../Col";
 
 function Footer() {
   return (
     <footer className="footer bg-info">
-      {/* <Row> */}
+
       <div className="d-flex align-items-center">
       <Col size="md-4">
         <a className="foot" rel="noreferrer" href=""><span>Phone: </span>917-600-9651</a>
@@ -37,7 +37,7 @@ function Footer() {
           /></a>
           </Col>
           </div>
-          {/* </Row> */}
+
     </footer>
   );
 }

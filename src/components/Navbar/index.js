@@ -57,7 +57,7 @@ class Navbar1 extends Component {
                 </Link>
               </NavItem>
               <NavItem>
-                <a class="nav-link" href="./img/resume.pdf" download>
+                <a className="nav-link" href="./img/resume.pdf" download>
                   Resume
                 </a>
               </NavItem>
