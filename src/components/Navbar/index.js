@@ -36,7 +36,7 @@ class Navbar1 extends Component {
                   to="/"
                   className={
                     window.location.pathname === "/" ||
-                    window.location.pathname === "/react_portfolio/about"
+                    window.location.pathname === "/about"
                       ? "nav-link active"
                       : "nav-link"
                   }
@@ -48,7 +48,7 @@ class Navbar1 extends Component {
                 <Link
                   to="/Portfolio"
                   className={
-                    window.location.pathname === "/react_portfolio/Portfolio"
+                    window.location.pathname === "/Portfolio"
                       ? "nav-link active"
                       : "nav-link"
                   }
@@ -65,7 +65,7 @@ class Navbar1 extends Component {
                 <Link
                   to="/Contact"
                   className={
-                    window.location.pathname === "/react_portfolio/Contact"
+                    window.location.pathname === "/Contact"
                       ? "nav-link active"
                       : "nav-link"
                   }

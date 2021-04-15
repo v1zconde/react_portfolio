@@ -23,13 +23,13 @@ function About() {
         </Col>
         <Col size="md-12"
           className="col-xs-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 text-justify ml-auto mr-auto bg-light rounded-bottom">
-          <p>I was born in 1983 in Puerto Plata, Dominican Republic. I currently live in Orlando, Fl. Father of two
+          <p>I was born in Puerto Plata, Dominican Republic. I currently live in Orlando, Fl. Father of two
             beautiful daughters and have my own online company for selling used refrigerator parts on eBay.
           </p>
           <p class="mt-3">
-            I graduated in college of BEng. Computing and System Engineering in 2005 in the PUCMM, Sto Dgo, DR. After i
-            went to Buenos Aires, Argentina and made a MBA that i graduated in 2008. After that i went to Barcelona,
-            Spain and did a Master in Marketing. I've been working in different fields in my live from server, bartender
+            I graduated in college of BEng. Computing and System Engineering in the PUCMM, Sto Dgo, DR. After i
+            went to Buenos Aires, Argentina and made a Postgraduate in Marketing. After that i went to Barcelona,
+            Spain and did a Master in Marketing and Commercial Management. I've been working in different fields in my live from server, bartender
             to Manager of Projects in Engineering.
           </p>
           <Row size="md-12">
