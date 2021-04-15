@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../components/Container";
 import Projects from "../components/Projects";
+import "../css/style.css";
 
 
 function Search () {

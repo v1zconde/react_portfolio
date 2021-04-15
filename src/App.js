@@ -9,7 +9,7 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <Navbar1 />
         <Wrapper>
           <Route exact path="/" component={About} />

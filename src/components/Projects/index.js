@@ -8,7 +8,7 @@ function Projects({results}) {
   return (
     <Row className="search-results">
       {results.map(project => (
-        <Card project={project} />
+        <Card project={project} key={project.title}/>
       ))}
     </Row>
   );

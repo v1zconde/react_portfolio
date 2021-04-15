@@ -9,9 +9,9 @@ function Footer() {
 
       <div className="d-flex align-items-center">
       <Col size="md-4">
-        <a className="foot" rel="noreferrer" href=""><span>Phone: </span>917-600-9651</a>
-        <a className="foot" rel="noreferrer" href=""><span>Email: </span>rvasquezhr@email.com</a>
-        <a className="foot" rel="noreferrer" href=""><span>city: </span>Orlando, Fl</a>
+        <span className="foot">Phone: 917-600-9651</span>
+        <span className="foot">Email:rvasquezhr@email.com </span>
+        <span className="foot">city: Orlando, Fl  </span>
       </Col>
       <Col size="md-4">
         <h6 >Social Media</h6>
